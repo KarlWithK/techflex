@@ -1,0 +1,46 @@
+* {
+	font-family: 'Arimo', sans-serif !important;
+	text-align: center;
+}
+
+.navbar-light .navbar-toggler-icon {
+	border: 1px solid #ebdbb2;
+}
+
+.bg-custom {
+	background-color: #10151a;
+}
+
+.nav-text {
+	color: #dfaf87 !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #ebdbb2;
+}
+
+header {
+	height: 1080px;
+	width: 100%;
+	color: #dfaf87;
+	text-align: center;
+	background-image: url("https://www.itl.cat/pngfile/big/294-2944053_gundam-wing.jpg");
+	background-size: cover;
+	background-position: -50px 0px;
+}
+
+.services i {
+	font-size: 24px;
+	padding: 15px 10px;
+	color: #ebdbb2;
+	background-color: #458588;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.services span {
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+}

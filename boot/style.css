@@ -1,0 +1,14 @@
+/* .navbar-light .navbar-nav .nav-link { */
+/* 	background-color: black; */
+/* 	color: red; */
+/* } */
+
+
+header {
+	height: 1920px;
+	width: 100%;
+	color: red;
+	background-image: url("https://wallpapercave.com/wp/MkF5ib5.jpg");
+  background-repeat: no-repeat;
+	background-size: contain;
+}
