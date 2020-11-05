@@ -57,3 +57,20 @@ header {
    margin-bottom: 50px;
 }
 
+.contact .input-group {
+	margin-bottom: 10px;
+}
+
+.contact .stuff {
+	margin-bottom: 10px;
+}
+
+.contact .btn-lg {
+	width: 100%;
+	transition: all 1s;
+}
+
+.contact .btn-lg:hover {
+	background-color: hotpink;
+	border-color: hotpink;
+}
