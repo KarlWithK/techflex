@@ -61,9 +61,18 @@ header {
 	margin-bottom: 10px;
 }
 
+.contact textarea {
+	text-align: left;
+}
+
 .contact .stuff {
 	margin-bottom: 10px;
 }
+
+/* I rather not use width 100 */
+/* .contact .btn { */
+/* 	width: 100%; */
+/* } */
 
 .contact .btn-lg {
 	width: 100%;
@@ -73,4 +82,24 @@ header {
 .contact .btn-lg:hover {
 	background-color: hotpink;
 	border-color: hotpink;
+}
+
+.lt * {
+	text-align: left;
+}
+.lt span {
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+}
+
+.lt i {
+	font-size: 24px;
+	padding: 15px 10px;
+	width: 40px;
+	height: 40px;
+}
+
+.ft {
+	display: inline-block;
 }
