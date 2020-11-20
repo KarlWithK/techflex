@@ -71,7 +71,7 @@ header {
 
 /* I rather not use width 100 */
 /* .contact .btn { */
-/* 	width: 100%; */
+/*	width: 100%; */
 /* } */
 
 .contact .btn-lg {
@@ -101,5 +101,11 @@ header {
 }
 
 .ft {
-	display: inline-block;
+	display: block;
+  white-space: nowrap;
+}
+
+.ft input {
+	width: 70%;
+	height: 100%;
 }
