@@ -1,29 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+	 crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css" type="text/css" media="all">
-	<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+	<script defer src="https://friconix.com/cdn/friconix.js">
+
+	</script>
 	<title>Best Friends Shelter</title>
 </head>
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-custom dark-mode">
-		<a class="navbar-brand nav-text" href="#">Best Friends Shelter</a>
-		<button class="navbar-toggler tog-bg" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-custom dark-mode">
+		<a class="navbar-brand nav-text" href="index.html">Best Friends Shelter</a>
+		<button class="navbar-toggler tog-bg" type="button" data-toggle="collapse" data-target="#navbarsupportedcontent"
+			aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<div class="collapse navbar-collapse" id="navbarsupportedcontent">
 			<ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+				<li class="nav-item active">
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<li class="nav-item active">
@@ -32,22 +33,106 @@
 				<li class="nav-item active">
 					<a class="nav-link" href="results.html">Data</a>
 				</li>
-        <li class="nav-item active">
+				<li class="nav-item active">
 					<a class="nav-link" href="location.html">Shelters</a>
 				</li>
-        <li class="nav-item active">
+				<li class="nav-item active">
 					<a class="nav-link" href="team.html">Our Team</a>
 				</li>
-        <li class="nav-item active">
+				<li class="nav-item active">
 					<a class="nav-link" href="contact.html">Contact Us</a>
+				</li>
+
+				<!-- donate thing -->
+				<li class="nav-item">
+					<div class="modal fade" id="examplemodal" tabindex="-1" role="dialog" aria-labelledby="examplemodallabel"
+						aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="examplemodallabel">Donate</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="creditcardform">
+
+											<div class="payment">
+												<form>
+
+													<div class="form-group owner">
+														<label for="owner">Amount to Donate</label>
+														<input type="number" class="form-control" id="owner" placeholder="$$$">
+													</div>
+
+													<div class="form-group owner">
+														<label for="owner">Full Name</label>
+														<input type="text" class="form-control" id="owner"
+															placeholder="please enter your full name">
+													</div>
+
+													<div class="form-group" id="card-number-field">
+														<label for="cardnumber">Card Number</label>
+														<input type="text" class="form-control" id="cardnumber"
+															placeholder="please enter your credit card number">
+													</div>
+
+													<div class="form-group cvv">
+														<label for="cvv">CVV</label>
+														<input type="text" class="form-control" id="cvv"
+															placeholder="please enter the 3 numbers at the back of your card">
+													</div>
+
+													<div class="form-group" id="expiration-date">
+														<label>Expiration Date</label> <br>
+														<select>
+															<option value="01">January</option>
+															<option value="02">February </option>
+															<option value="03">March</option>
+															<option value="04">April</option>
+															<option value="05">May</option>
+															<option value="06">June</option>
+															<option value="07">July</option>
+															<option value="08">August</option>
+															<option value="09">September</option>
+															<option value="10">October</option>
+															<option value="11">November</option>
+															<option value="12">December</option>
+														</select>
+														<select>
+
+															<option value="19"> 2019</option>
+															<option value="20"> 2020</option>
+															<option value="21"> 2021</option>
+															<option value="19"> 2022</option>
+															<option value="20"> 2023</option>
+															<option value="21"> 2024</option>
+														</select>
+													</div>
+												</form>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-lg" data-dismiss="modal">donate!</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</li>
 			</ul>
 		</div>
 	</nav>
 
-	<header class="container">
-		Here at Best Friends Shelter, we are always doing our best to succed.
-	</header>
+
+
+
+  <header class="rheader" id="rheader"><strong>
+		Here at Best Friends Shelter, we are always doing our best to succeed.</strong>
+  </header>
 
 	<section class="gallery container">
 		<div class="tab">
@@ -75,7 +160,7 @@
 					<div class="carousel-item active">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Roxy-Courtesy-Kalee-Dillard-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg"
 									alt="First slide">
 							</div>
 						</div>
@@ -84,7 +169,7 @@
 					<div class="carousel-item">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Lola-Courtesy-Stephanie-Bell-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Dog_in_animal_shelter_in_Washington%2C_Iowa.jpg"
 									alt="Second slide">
 							</div>
 						</div>
@@ -93,7 +178,7 @@
 					<div class="carousel-item">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Munchkin-Courtest-Richard-McSweeney-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://www.aspca.org/sites/default/files/field/image/blog-og-image/blog_make-dogs-day_101619_fb.jpg"
 									alt="Third slide">
 							</div>
 						</div>
@@ -111,7 +196,7 @@
 					<div class="carousel-item active">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Roxy-Courtesy-Kalee-Dillard-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://d17fnq9dkz9hgj.cloudfront.net/uploads/2012/11/154022719-disaster-preparedness-birds-632x475.jpg"
 									alt="First slide">
 							</div>
 						</div>
@@ -120,7 +205,7 @@
 					<div class="carousel-item">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Lola-Courtesy-Stephanie-Bell-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://images.squarespace-cdn.com/content/v1/559d822ae4b0b0ab59484d42/1533132711644-6JIEW30ZX3PE4LL8X1MY/ke17ZwdGBToddI8pDm48kNu93_l1Rc0JoXikXAEKHf17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmDJyaVitQ06bkWUY0OMxkmN-bdz7wg8la12Me-ub45vBE5029s6uMXtkNCzVgxK8m/Auroraweb.jpg"
 									alt="Second slide">
 							</div>
 						</div>
@@ -129,7 +214,7 @@
 					<div class="carousel-item">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Munchkin-Courtest-Richard-McSweeney-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://images.squarespace-cdn.com/content/v1/5c8155dc797f7427b26ad464/1551995262919-1IDIL447ITGDOTN35QRT/ke17ZwdGBToddI8pDm48kBFoXydH5xQ94tXbDwQ53uN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3rv7sVmavAApj1cuSnuUyXzqqXjS3CfNDSuuf31e0tVFgFZGgA6PbQMVTNMB3pDL8eWIGsNNRdwKdJlTSz8TE6JnULO2-D7SUd6cFuNk0V9Y/image-asset.jpeg"
 									alt="Third slide">
 							</div>
 						</div>
@@ -147,7 +232,7 @@
 					<div class="carousel-item active">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Roxy-Courtesy-Kalee-Dillard-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://fearfreepets.com/wp-content/uploads/2019/06/shutterstock_782965375.jpg"
 									alt="First slide">
 							</div>
 						</div>
@@ -156,7 +241,7 @@
 					<div class="carousel-item">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Lola-Courtesy-Stephanie-Bell-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://www.aspca.org/sites/default/files/animal-homelessness_shelter-intake-and-surrender_facebook.jpg"
 									alt="Second slide">
 							</div>
 						</div>
@@ -165,7 +250,7 @@
 					<div class="carousel-item">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Munchkin-Courtest-Richard-McSweeney-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://uploads-ssl.webflow.com/5ac1a6490c89183d0ba47138/5d8572f2e9eb991e96a3d6d3_Cattown_gingercat_640.jpg"
 									alt="Third slide">
 							</div>
 						</div>
@@ -183,7 +268,7 @@
 					<div class="carousel-item active">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Roxy-Courtesy-Kalee-Dillard-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://2.bp.blogspot.com/-Przxrps2qLs/VB2uwls9GiI/AAAAAAAAEAg/_PZvPn8uD5c/s1600/IMG_1433%5B1%5D.JPG"
 									alt="First slide">
 							</div>
 						</div>
@@ -192,7 +277,7 @@
 					<div class="carousel-item">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Lola-Courtesy-Stephanie-Bell-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://thumbs.dreamstime.com/b/large-gray-snake-curled-up-plastic-container-large-gray-snake-curled-up-plastic-container-close-up-150666672.jpg"
 									alt="Second slide">
 							</div>
 						</div>
@@ -201,7 +286,7 @@
 					<div class="carousel-item">
 						<div class="row">
 							<div class="col-md-6 mx-auto">
-								<img class="d-block w-100 mx-auto" src="images/Munchkin-Courtest-Richard-McSweeney-1024x683.jpg"
+								<img class="d-block w-100 mx-auto" src="https://i.guim.co.uk/img/media/54db1ef1783c5cd1caa9fa8334ce1d82d39baf73/562_435_2918_1752/master/2918.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=008c21f719f5b676bb5a7d42b9eb21bf"
 									alt="Third slide">
 							</div>
 						</div>
@@ -211,21 +296,63 @@
 
 		</div>
 
+		<div class="container">
+			<table class="table table-hover">
+				<caption>Stats In Our Shelters</caption>
+				<thead>
+					<tr>
+						<th scope="col">Breed</th>
+						<th scope="col"># Recieved</th>
+						<th scope="col"># Returned</th>
+						<th scope="col"># Adpoted</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Cats</th>
+						<td>3311</td>
+						<td>212</td>
+						<td>1514</td>
+					</tr>
+					<tr>
+						<th scope="row">Dogs</th>
+						<td>3531</td>
+						<td>394</td>
+						<td>2020</td>
+					</tr>
+					<tr>
+						<th scope="row">Birds</th>
+						<td>129</td>
+						<td>18</td>
+						<td>53</td>
+					</tr>
+					<tr>
+						<th scope="row">Snakes</th>
+						<td>254</td>
+						<td>28</td>
+						<td>168</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
 		</div>
 
 
 	</section>
 
-		<footer class="container-footer">
+<footer class="container-footer container">
 		<div class="row">
 			<div class="col-md-6">
 				<h2>Contact Us</h2>
-        <div class="footer-item-contact">
-				<span>Contact us for business or volunteer related corncerns</span>
+				<div class="footer-item-contact">
+					<span>Contact us for business or volunteer related corncerns</span>
 				</div>
 				<div class="footer-item">
 					<i class="fi-xnsuxl-house-solid"></i>
-					<span>Find us at <a href="https://www.google.com/maps/place/Rikers+Correctional+Center/@40.7893183,-73.8898982,15.65z/data=!4m5!3m4!1s0x89c25a1fb6504d21:0x64bcd0c137d4f6fe!8m2!3d40.7921375!4d-73.886447">1616 Hazen St, The Bronx, NY 11370</a></span>
+					<span>Find us at <a
+							href="https://www.google.com/maps/place/Rikers+Correctional+Center/@40.7893183,-73.8898982,15.65z/data=!4m5!3m4!1s0x89c25a1fb6504d21:0x64bcd0c137d4f6fe!8m2!3d40.7921375!4d-73.886447">1616
+							Hazen St, The Bronx, NY 11370</a></span>
 				</div>
 				<div class="footer-item">
 					<i class="fi-xwsuxl-envelope-solid"></i><span>Email: bestfriendshelter78@gmail.com</span>
@@ -237,12 +364,12 @@
 					<i class="fi-xnsuxl-smartphone-solid"></i><span>Instagram/Twitter: @bestfriendshelter</span>
 				</div>
 			</div>
-      <div class="col-lg-6 col-md-6">
-        <div class="input-group">
-          <textarea cols="80" rows="1" class="form-control"></textarea>
-        </div>
-        <button class="btn btn-lg">Donations are welcomed!</button>
-      </div>
+			<div class="col-lg-6 col-md-6">
+				<div class="input-group">
+					<textarea cols="80" rows="1" class="form-control"></textarea>
+				</div>
+				<button class="btn btn-lg" data-toggle="modal" data-target="#examplemodal">Donations are welcomed!</button>
+			</div>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

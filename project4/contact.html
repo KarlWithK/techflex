@@ -4,13 +4,27 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+	 crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="contact.css" type="text/css" media="all">
 	<script defer src="https://friconix.com/cdn/friconix.js">
 
 	</script>
+	<style>
+		* {
+			font-family: 'Arimo', sans-serif !important;
+			/* text-align: center; */
+		}
+
+		.form-align {
+			text-align: left;
+		}
+
+		.header-text {
+			text-align: center;
+		}
+	</style>
 	<title>Best Friends Shelter</title>
 </head>
 
@@ -127,104 +141,60 @@
 		</div>
 	</nav>
 
-	<header>
-		<div class="jumbotron jumbotron-fluid container-fluid">
-			<div class="container">
-				<h1 class="display-2">Best Friends Shelter</h1>
-				<p>Dedicated to helping vulnerable animals and making sure all pets are kept in safe, loving homes.
-			</div>
+	<header class="container">
+		<div class="header-text" style="text-align:center;">
+			<h3>Let Us Know</h3>
+			<p class="lead">Any feedback? Questions? Comments?<br>
+				Fill out the form below and we will get back to you shortly. </p>
 		</div>
 	</header>
 
-	<!--Service-->
-	<section class="services container" id="services">
-		<h1 class="h1service" id="h1service">Our Services</h1>
-		<div class="row">
-			<div class="col-md-6">
-				<i class="fab fa-android"></i>
-				<h1 class="service1" id="service1">Rescue</h1>
-				<p class="service2" id="service2">We save animals we find on the streets and take them into our shelters</p>
+	<section class="container">
+		<form action="mailto:chernandez10@stuy.edu" method="post" enctype="text/plain">
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="First">First Name</label>
+					<input type="text" class="form-control" id="First" placeholder="First Name">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="last">Last Name</label>
+					<input type="text" class="form-control" id="Last" placeholder="Last Name">
+				</div>
 			</div>
-			<div class="col-md-6">
-				<i class="fab fa-android"></i>
-				<h1 class="service1" id="service1">Placement</h1>
-				<p class="service2" id="service2">We provide the animals with a place to live while actively searching for a
-				forever home for them.</p>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inputEmail4">Email Address</label>
+					<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inputPassword4">Phone Number</label>
+					<input type="tel" class="form-control" id="phone" maxlength="12" placeholder="123-456-7890">
+				</div>
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-6">
-				<i class="fab fa-android"></i>
-				<h1 class="service1" id="service1">Protection</h1>
-				<p class="service2" id="service2">We are standing up to animal rights and we take our jobs of finding a safe
-					forever home for our Friends.</p>
+			<div class="form-group">
+				<label for="message">Message</label>
+				<textarea class="form-control" id="message" rows="3"></textarea>
 			</div>
-			<div class="col-md-6">
-				<i class="fab fa-android"></i>
-				<h1 class="service1" id="service1">Collaboration</h1>
-				<p class="service2" id="service2">Our shelter does not work alone! We also work with other animal shelters and
-					rescue teams!</p>
+			<div class="form-group">
+				<label for="file-stuff">Picture of Animal?</label>
+				<input type="file" class="form-control-file" id="file-stuff">
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-6">
-				<i class="fab fa-android"></i>
-				<h1 class="service1" id="service1">Meet Our team</h1>
-				<p class="service2" id="service2">Our team consists of many professionals in the field of animal care and
-					protection</p>
-			</div>
-			<div class="col-md-6">
-				<i class="fab fa-android"></i>
-				<h1 class="service1" id="service1">Partners</h1>
-				<p class="service2" id="service2">We have partenered with many other organizations to help us organize our
-					efforts better</p>
-			</div>
-		</div>
-
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
 	</section>
 
-	<!--footer-->
-	<footer class="container-footer container" id="footer">
-		<div class="row">
-			<div class="col-md-6">
-				<h2>Contact Us</h2>
-				<div class="footer-item-contact">
-					<span>Contact us for business or volunteer related corncerns</span>
-				</div>
-				<div class="footer-item">
-					<i class="fi-xnsuxl-house-solid"></i>
-					<span>Find us at <a
-							href="https://www.google.com/maps/place/Rikers+Correctional+Center/@40.7893183,-73.8898982,15.65z/data=!4m5!3m4!1s0x89c25a1fb6504d21:0x64bcd0c137d4f6fe!8m2!3d40.7921375!4d-73.886447">1616
-							Hazen St, The Bronx, NY 11370</a></span>
-				</div>
-				<div class="footer-item">
-					<i class="fi-xwsuxl-envelope-solid"></i><span>Email: bestfriendshelter78@gmail.com</span>
-				</div>
-				<div class="footer-item">
-					<i class="fi-xnsrxl-phone-solid"></i><span>Phone Number: 1-800-888-2020</span>
-				</div>
-				<div class="footer-item">
-					<i class="fi-xnsuxl-smartphone-solid"></i><span>Instagram/Twitter: @bestfriendshelter</span>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6">
-				<div class="input-group">
-					<textarea cols="80" rows="1" class="form-control"></textarea>
-				</div>
-				<button class="btn btn-lg" data-toggle="modal" data-target="#examplemodal">Donations are welcomed!</button>
-			</div>
-	</footer>
 
-
-	<!--JavaScript-->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+		</script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-		crossorigin="anonymous"></script>
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+		</script>
+	<script charset="utf-8" src="script.js"></script>
+	<script>
+		document.getElementById("defaultOpen").click();
+	</script>
+
 </body>
 
 </html>

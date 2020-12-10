@@ -1,0 +1,20 @@
+.jumbotron {
+    /* background-color: #f08080 !important; */
+		background-color: rgba(233, 236, 239, 0.7) !important;
+	 /* filter: blur(8px); */
+		/* -webkit-filter: blur(8px); */
+}
+
+
+.btn {
+   border-radius: 0;
+   width: 100%;
+   font-size: 15px;
+   background-color: #f08080;
+   color: #fff;
+}
+
+.btn:hover {
+   background-color: #a85959 !important;
+   color: #fff !important;
+}
