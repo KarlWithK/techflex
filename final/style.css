@@ -1,0 +1,97 @@
+.navbar{
+  background: rgb(34, 74, 17);
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-brand:hover{
+  color: rgb(163, 240, 129);
+  transition: 0.18s;
+}
+.navbar:hover .navbar-nav:hover .nav-link:hover{
+  color: rgb(163, 240, 129);
+  transition: 0.18s;
+}
+
+header {
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url("https://coverfiles.alphacoders.com/411/41193.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  height: 500px;
+  width: 100%;  
+}
+
+.links{
+  text-align: center;
+  padding: 20px;
+}
+.links i{
+  background-color: rgb(22, 51, 9);
+  color: white;
+  font-size: 30px;
+  padding: 23px 2px;
+  height: 70px;
+  width: 70px;
+  border-radius: 40%;
+}
+
+footer{
+  background-color: rgb(22, 51, 9);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* about us page */
+.about{
+  text-align: center;
+  padding: 30px;
+}
+
+.featured{
+  text-align: center;
+  padding: 30px;
+}
+.featured img{
+  height: 200px;
+}
+
+/* pokemon page */
+.pokemonList{
+  padding: 20px;
+}
+.pokemon {
+  background-color: #5cd8fc;
+  border: 10px solid white;
+  border-radius: 30%;
+  color: #495159;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 5px;
+  text-align: center;
+}
+
+/* store page */
+.store{
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.store img{
+  height: 200px;
+  margin: 10px;
+}
+.store .btn{
+  background-color: rgb(22, 51, 9);
+  width: 200px;
+}

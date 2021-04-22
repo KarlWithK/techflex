@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Randomizer</title>
+
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/c8f7c3ebec.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- what happened to the header - check discord pls-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Maria's Middle School</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="students.html"
+                  >Students</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="randomizer.html"
+                  >Randomizer</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- links to other sections -->
+    <section>
+
+
+<div id=text>
+
+            <h1>High-Low Game!</h1>
+            <p>Please enter a number between 0 and 100</p>
+            
+            <div class="input-group input-group-lg" id="input">
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Enter Number Here.</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="number">
+            </div>
+            <br>
+            <button type="button" class="btn btn-danger" onclick="checkValue()">Guess</button>
+            
+            <br>
+            <h2 id='result'>Make a guess!</h2>
+        </div>
+
+      <div id="text">
+        <h1>High-Low Game!</h1>
+        <p>Please enter a number between 0 and 100</p>
+
+        <div class="input-group input" id="input">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-lg"
+              >Enter Number Here</span
+            >
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-lg"
+            id="number"
+          />
+        </div>
+        <br />
+        <button type="button" class="btn btn-danger" onclick="checkValue()">
+          Guess
+        </button>
+
+        <h2 id="result">Make a guess!</h2>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Contact Information</h4>
+          <div>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>1100<br />USA, NY, 12345</span>
+          </div>
+          <div>
+            <i class="fas fa-globe"></i>
+            <span>mariasmiddleschool@gmail.com</span>
+          </div>
+          <div>
+            <i class="fas fa-phone"></i>
+            <span>(123) 456-7890</span>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h4>Maria's Middle School</h4>
+          <i class="fas fa-graduation-cap"></i>
+          <p>Taking care of our students</p>
+        </div>
+
+        <div class="col-md-4">
+          <h4>Social Media</h4>
+          <a target="_blank" href="https://twitter.com/home"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a target="_blank" href="https://www.facebook.com/"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a target="_blank" href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

@@ -1,119 +1,117 @@
 .btn {
-   border-radius: 0;
-   width: 100%;
-   font-size: 15px;
-   background-color: #f08080;
-   color: #fff;
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #f08080;
+  color: #fff;
 }
 
 .btn:hover {
-   background-color: #a85959 !important;
-   color: #fff !important;
+  background-color: #a85959 !important;
+  color: #fff !important;
 }
 
-#services{
-  
-
+#services {
 }
 
 /*team*/
 
 .team {
-  background-color:#f08080;
-  color:white;
-  padding:50px;
-  margin:75px;}
-
-.team h1{
-  color:white;
-  padding:10px;
-  border:10px;
-  border-color:white;
-  text-align:center;
-  font-family:Impact, fantasy;
-}
-#image4{
-  width:250px;
+  background-color: #f08080;
+  color: white;
+  padding: 50px;
+  margin: 75px;
 }
 
-.team{
-   margin-top: 80px;
-   margin-bottom: 80px;
+.team h1 {
+  color: white;
+  padding: 10px;
+  border: 10px;
+  border-color: white;
+  text-align: center;
+  font-family: Impact, fantasy;
 }
-.team img{
-   width: 250px;
-   height: 250px;
-   border-radius: 50%;
-   margin-bottom: 50px;
+#image4 {
+  width: 250px;
+}
+
+.team {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.team img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 50px;
 }
 /*partner*/
 .partners {
-  padding:50px;
-  margin:50px;
-  border:25px;
+  padding: 50px;
+  margin: 50px;
+  border: 25px;
 }
-.partners p{
-  font-family:'Poppins', sans-serif;
-  text-align:left;
-  color:black;
-  width:50%;
-  height:50%;
-  font-size:17px;
+.partners p {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  color: black;
+  width: 50%;
+  height: 50%;
+  font-size: 17px;
 }
-.partners img{
-  padding:25px;
-  width:55%;
-  height:75%;
+.partners img {
+  padding: 25px;
+  width: 55%;
+  height: 75%;
 }
-#pheader{
-  color:white;
-  font-size:40px;
-  text-align:left;
-  background-color:#f08080;
-  padding:7%;
-  font-family:Optima, sans-serif;
+#pheader {
+  color: white;
+  font-size: 40px;
+  text-align: left;
+  background-color: #f08080;
+  padding: 7%;
+  font-family: Optima, sans-serif;
 }
 /*Data*/
 #rheader {
-  Background-color:#f08080;
-  font-family:Bookman, URW Bookman L, serif;
-  padding:5%;
-  font-size:30px;
-  text-align:left;
-  color:white;
-  margin:30px;
+  background-color: #f08080;
+  font-family: Bookman, URW Bookman L, serif;
+  padding: 5%;
+  font-size: 30px;
+  text-align: left;
+  color: white;
+  margin: 30px;
 }
 
-
-.footer-item{
-  text-align:left;
+.footer-item {
+  text-align: left;
 }
 
 .lt * {
-	text-align: left;
+  text-align: left;
 }
 
 .lt span {
-	width: 200px;
-	height: 40px;
-	display: inline-block;
+  width: 200px;
+  height: 40px;
+  display: inline-block;
 }
 
 .lt i {
-	font-size: 24px;
-	padding: 15px 10px;
-	width: 40px;
-	height: 40px;
+  font-size: 24px;
+  padding: 15px 10px;
+  width: 40px;
+  height: 40px;
 }
 
 .ft {
-	display: block;
+  display: block;
   white-space: nowrap;
 }
 
 .ft input {
-	width: 70%;
-	height: 100%;
+  width: 70%;
+  height: 100%;
 }
 
 .gallery {
@@ -127,7 +125,7 @@
 .tab button {
   background-color: inherit;
   border: none;
-	color: #333;
+  color: #333;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -139,9 +137,9 @@
 }
 
 .tab button.active {
-	background-color: #f1f1f1;
-	text-decoration: underline;
-	color: #282828;
+  background-color: #f1f1f1;
+  text-decoration: underline;
+  color: #282828;
 }
 
 .tabstuff {
@@ -150,10 +148,9 @@
   border-top: none;
 }
 
-
 .jumbotron {
-	background-image: url(https://www.cityofallen.org/ImageRepository/Path?filePath=%2FDocuments%5CContent%5C123%2F1020161527_HDR.jpg);
-	background-position: 0 10%;
+  background-image: url(https://www.cityofallen.org/ImageRepository/Path?filePath=%2FDocuments%5CContent%5C123%2F1020161527_HDR.jpg);
+  background-position: 0 10%;
   background-size: cover;
-	color:white;
+  color: white;
 }

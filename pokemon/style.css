@@ -1,0 +1,15 @@
+header {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon {
+  background-color: #ffa;
+  border: 10px solid white;
+  color: #495159;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 5px;
+  text-align: center;
+}

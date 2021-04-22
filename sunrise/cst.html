@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunrise</title>
+
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!--Jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Scripts-->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CST Time Zone Sunrise/Sunset</h1>
+      <div>
+        <h2>Pick Corrdinates</h2>
+        <div class="row">
+          <div class="col-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default"
+                  >Latitude</span
+                >
+              </div>
+              <input
+                placeholder="40"
+                id="lat"
+                type="text"
+                class="form-control"
+                aria-label="Default"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default"
+                  >Longitude</span
+                >
+              </div>
+              <input
+                placeholder="-70"
+                id="lng"
+                type="text"
+                class="form-control"
+                aria-label="Default"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+          </div>
+        </div>
+        <input type="hidden" class="corr" value="1" />
+        <button type="submit" onclick="main()" class="btn btn-primary">
+          Submit
+        </button>
+      </div>
+      <div class="row" id="timeDisplay">
+        <div class="col-6">
+          <p id="sunrise">sunrise</p>
+        </div>
+        <div class="col-6">
+          <p id="sunset">sunset</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <ul>
+            <li>Houston</li>
+            <li>Dallas</li>
+            <li>New Orleans</li>
+            <li>Oklahoma City</li>
+            <li>Memphis</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li>Kansas City</li>
+            <li>Wichita</li>
+            <li>Chicago</li>
+            <li>St. Louis</li>
+            <li>Minneapolis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
